@@ -3,7 +3,7 @@ words = sentence.split()
 freq = {}
 
 for word in words:
-    word = word.lower()  # optional: make case-insensitive
+    word = word.lower()  
     if word in freq:
         freq[word] += 1
     else:
